@@ -52,5 +52,40 @@ function calc(num1:number,num2:number){
 // }));
 
 
-type ID = number | string;
-const userId:ID = 123;
+// type ID = number | string;
+// const userId:ID = 123;
+
+
+
+//Interfaces
+// interface Transaction {
+//     payerAccountNumber : number;
+//     payeeAccountNumber : number;
+// }
+
+// const transaction1 : Transaction = {
+//     payerAccountNumber : 123,
+//     payeeAccountNumber : 232
+// }
+
+// const transaction2 : Transaction = {
+//     payerAccountNumber : 123,
+//     payeeAccountNumber : 200
+// }
+
+// interface BankAccount {
+//     accountNumber : number;
+//     accountHolder : string;
+//     balance : number;
+//     isActive : boolean;
+//     transactions : Transaction[];
+// }
+
+// const bankAccount:BankAccount = {
+//     accountNumber : 123,
+//     accountHolder : 'Vinay',
+//     balance : 999,
+//     isActive : true,
+//     transactions : [transaction1,transaction2]
+// }
+
